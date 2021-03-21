@@ -1,7 +1,31 @@
+.form-div{
+    margin-left: 20px;
+    text-align: center;
+}
 .search-form{
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color:lightgrey;
     padding: 25px;
     border-radius: 5px;
-    float: left;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.map-box img{
+    margin-top: 20px;
+    width: 90%;
+}
+.destination-box{
+    background-color: goldenrod;
+    width:100%;
+    height:100%;
+}
+.input-box{
+    border-radius: 20px;
+    width:100%;
+}
+.search-btn{
+    width: 100%;
+    border-radius: 20px!important;
+    margin-top: 20px;
 }
