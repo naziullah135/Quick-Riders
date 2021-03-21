@@ -1,0 +1,12 @@
+.home{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+}
+.vehicle-box{
+   margin: auto;
+  padding: 50px;
+
+}
