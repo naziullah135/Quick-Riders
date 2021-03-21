@@ -1,14 +1,16 @@
-import Home from './Home/Home';
+import Home from './components/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import NotFound from './NotFound/NotFound';
-import Header from './Header/Header';
-import Login from './Login/Login';
+import NotFound from './components/NotFound/NotFound';
+import Header from './components/Header/Header';
+import Login from './components/Login/Login';
 import { createContext, useState } from 'react';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Destination from './components/Destination/Destination';
 
 export const UserContext = createContext();
 function App(props) {
@@ -27,6 +29,9 @@ function App(props) {
           <Route path="/login">
             <Login />
           </Route>
+          <PrivateRoute path="/destination">
+            <Destination />
+          </PrivateRoute>
           <Route path="*">
             <NotFound />
           </Route>

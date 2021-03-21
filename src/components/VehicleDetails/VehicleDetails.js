@@ -5,7 +5,7 @@ const VehicleDetails = (props) => {
   const { name, img } = props.vehicle;
   return (
     <div>
-      <Link to="/login">
+      <Link to="/destination">
         <div className="col-md-4 col-small-12 vehicle-box">
           <div
             className="card-div card container text-center"

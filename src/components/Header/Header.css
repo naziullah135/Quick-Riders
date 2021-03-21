@@ -1,6 +1,9 @@
+*{
+    font-family: sans-serif;
+}
 .header{
     background:rgb(61,181,241);
 }
 .nav-link h5{
-    padding: 20px;
+    padding: 15px;
 }
